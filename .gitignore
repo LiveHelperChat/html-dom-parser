@@ -1,7 +1,3 @@
-# Build directory
-dist/
-esm/
-lib/
 
 # Logs
 logs
