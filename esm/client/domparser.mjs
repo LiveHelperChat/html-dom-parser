@@ -142,5 +142,5 @@ function domparser(html, trustedTypePolicy) {
     }
 }
 
-export { domparser as default };
+export { domparser as default, getHTMLForInnerHTML };
 //# sourceMappingURL=domparser.mjs.map

@@ -1,4 +1,7 @@
 import type { TrustedTypePolicyLike } from '../types.mjs';
+export declare function getHTMLForInnerHTML(html: string, trustedTypePolicy?: TrustedTypePolicyLike): string | {
+    toString(): string;
+};
 /**
  * Parses HTML string to DOM nodes.
  *
